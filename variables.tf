@@ -47,3 +47,8 @@ variable "tfe_workspace_name" {
   description = "(Required) terraform workspace variables origin"
 }
 
+variable "playbook_repository" {
+  type        = string
+  description = "(Required) URI of Ansible playbook"
+}
+
